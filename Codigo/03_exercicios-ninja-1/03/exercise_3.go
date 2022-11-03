@@ -1,0 +1,30 @@
+// Utilizando default values de %v para retornar os valores:
+package main
+
+import "fmt"
+
+var x = 42
+var y = "James Bond"
+var z = true
+
+func main() {
+	s := fmt.Sprintf("%d\t %s\t %t", x, y, z)
+	fmt.Println(s)
+}
+
+/* Outra forma seria utilizar o %v para retornar os valores
+
+package main
+
+import "fmt"
+
+var x = 42
+var y = "James Bond"
+var z = true
+
+func main() {
+	s := fmt.Sprintf("%v\t %v\t %v", x, y, z)
+	fmt.Println(s)
+}
+
+*/

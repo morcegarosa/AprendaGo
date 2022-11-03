@@ -1,0 +1,1 @@
+Solution of the exercises from the course Aprenda Go ministred by Ellen Korbes
